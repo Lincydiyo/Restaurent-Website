@@ -23,14 +23,8 @@ function Home_page() {
               Order Now
             </Link>
           </Col>
-
           <Col lg="5" sm="12">
-            <img
-              className="burger"
-              style={{ width: 400, height: 400, marginTop: 45 }}
-              src={BurgerImage}
-              alt="Burger"
-            />
+            <img className="burger" src={BurgerImage} alt="Burger" />
           </Col>
         </Row>
       </div>

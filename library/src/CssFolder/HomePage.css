@@ -3,17 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .Home {
   background: linear-gradient(135deg, #f9fbe7, #4dae89);
   text-align: center;
-  padding: 2%;
+  padding: 3% 5%;
 }
+
 .Home h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-top: 10%;
   color: #333;
 }
+
 .Home p {
   font-size: 1.2rem;
   margin: 20px 0;
@@ -35,12 +38,15 @@
   background-color: #e64a19;
   color: white;
 }
+
 .burger {
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
   height: auto;
-  margin-top: 10px;
+  margin: 30px auto 0;
   animation: App-logo-spin infinite 20s linear;
 }
+
 /* Animation keyframes */
 @keyframes App-logo-spin {
   from {
@@ -54,7 +60,7 @@
 /* Media Queries for Responsive Design */
 @media (max-width: 991px) {
   .Home h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-top: 5%;
   }
 
@@ -68,18 +74,18 @@
   }
 
   .burger {
-    width: 300px;
+    max-width: 300px;
     margin-top: 20px;
   }
 }
 
 @media (max-width: 576px) {
   .Home h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .Home p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .Home .order-button {
@@ -88,11 +94,7 @@
   }
 
   .burger {
-    width: 100%;
     max-width: 80%;
-    height: 100%;
-    max-height: 60%;
-    animation: App-logo-spin infinite 20s linear;
+    margin-top: 30px;
   }
-
 }
