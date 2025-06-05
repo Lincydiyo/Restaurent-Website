@@ -70,7 +70,6 @@
   .burger {
     width: 300px;
     margin-top: 20px;
-    animation: 0;
   }
 }
 
@@ -89,7 +88,11 @@
   }
 
   .burger {
-    width: 250px;
+    width: 100%;
+    max-width: 80%;
+    height: 100%;
+    max-height: 60%;
     animation: App-logo-spin infinite 20s linear;
   }
+
 }

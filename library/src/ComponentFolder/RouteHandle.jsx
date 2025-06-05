@@ -1,5 +1,4 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './HomePage'
 import AboutPage from './AboutPage'
 import ContactPage from './ContactPage'
@@ -10,7 +9,7 @@ import OrderPage from './OrderPage'
 
 function RouteHandle() {
   return (
-<BrowserRouter>
+<HashRouter>
 <Routes>
     <Route path='/' element={<HomePage/>}/> 
     <Route path='/about' element={<AboutPage/>}/>
@@ -18,7 +17,7 @@ function RouteHandle() {
     <Route path='/menu' element={<MenuPage/>}/>
     <Route path='/order' element={<OrderPage/>}/>
 </Routes>
-</BrowserRouter>
+</HashRouter>
   )
 }
 
